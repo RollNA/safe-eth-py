@@ -1615,6 +1615,12 @@ MASTER_COPIES: Dict[EthereumNetwork, List[Tuple[str, int, str]]] = {
     ],
     EthereumNetwork.CYCLE_TESTNET: [
         ("0x39cadaa83D53E9f3727c61328874853c3AA50b12", 0, "1.4.1"),  # v1.4.1
+    ],
+    EthereumNetwork.CYCLE_TESTNET_JELLYFISH: [
+        ("0xDceD40235B7E0735B3AB781B877FCBC99Dc467cc", 0, "1.4.1"),  # v1.4.1
+    ],
+    EthereumNetwork.CYCLE_MAINNET: [
+        ("0x1111111111111111111111111111111111111111", 0, "1.4.1"),  # v1.4.1
     ]
 }
 
@@ -2425,5 +2431,11 @@ PROXY_FACTORIES: Dict[EthereumNetwork, List[Tuple[str, int]]] = {
     ],
     EthereumNetwork.CYCLE_TESTNET: [
         ("0x823Df911842BE9b34c59B826B4df24Bf85bdb7F1", 0),  # v1.4.1
+    ],
+    EthereumNetwork.CYCLE_TESTNET_JELLYFISH: [
+        ("0x02257b6C209341aE83AA14743847baa1f460F2eA", 0),  # v1.4.1
+    ],
+    EthereumNetwork.CYCLE_MAINNET: [
+        ("0x1111111111111111111111111111111111111111", 0),  # v1.4.1
     ],
 }
